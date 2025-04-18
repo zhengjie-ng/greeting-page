@@ -1,0 +1,60 @@
+body {
+  background-image: url(images/morning_4000px.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.topButtons {
+  display: flex;
+  justify-content: right;
+  width: 95vw;
+}
+
+button {
+  opacity: 0.8;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+a.button {
+  padding: 1px 6px;
+  border: 1px outset buttonborder;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+a.button:hover {
+  opacity: 1;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-size: 4rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  opacity: 0;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
