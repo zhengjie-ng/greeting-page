@@ -21,6 +21,6 @@ $(document).ready(function () {
       height: "-=10vh",
       opacity: 0.9,
     },
-    "slow"
+    "very slow"
   );
 });
